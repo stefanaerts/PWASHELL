@@ -1,0 +1,10 @@
+{
+  "port": 8000,
+  "files": [
+    "./dist/**/*.{map,html,htm,css,js,jpg,woff2,woff}"
+  ],
+  "server": {
+    "baseDir": "./dist"
+  },
+  "https": false
+}
