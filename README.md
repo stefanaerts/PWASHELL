@@ -13,23 +13,27 @@
 - lite server added to test local 
 - workflow 
 
-           1) ng build --prod`(--aot default)
+           1) ng build --prod(--aot default)
 
-           2) `npm run precache` 
+           2) npm run precache 
 
-           3) `npm run lite` 
+           3) npm run lite 
 
-           4)open chrome devtools and refresh network tab,then you will see service worker cached
+           4) open chrome devtools and refresh network tab,then you will see service worker cached
 
 
 ##run tests local + generate code coverage report
 
-`npm run ltest` to see result in browser
+`npm run ltest` to see result of tests in browser
 
 
 ##show code coverage report local
-run local -> `$(npm bin)/lcov-summary ./coverage/lcov.info`
-run local -> `npm run showcoverage`
+
+`$(npm bin)/lcov-summary ./coverage/lcov.info`
+ 
+ ##or
+
+ `npm run showcoverage`
 
 ##travis
 
