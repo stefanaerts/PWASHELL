@@ -1,4 +1,3 @@
-import { BusinessCardComponent } from './views/headers/business-card/business-card.component';
 import { Component } from '@angular/core';
 
 @Component({

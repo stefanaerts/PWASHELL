@@ -1,6 +1,7 @@
-[![Coverage Status](https://coveralls.io/repos/github/stefanaerts/PWASHELL/badge.svg?branch=master)](https://coveralls.io/github/stefanaerts/PWASHELL?branch=master)]
+[![Build Status](https://travis-ci.org/stefanaerts/PWASHELL.svg?branch=master)](https://travis-ci.org/stefanaerts/v3_ethnic)
 
-[![Build Status](https://travis-ci.org/stefanaerts/PWASHELL.svg?branch=master)]
+<!--[![Coverage Status](https://coveralls.io/repos/github/stefanaerts/PWASHELL/badge.svg?branch=master)](https://coveralls.io/github/stefanaerts/PWASHELL?branch=master)]-->
+
 
 # PWASHELL
 
