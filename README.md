@@ -11,9 +11,13 @@
 - progressive webapp skeleton
 - manifest.json added
 - lite server added to test local 
-- workflow 1)`ng build --prod`(--aot default) 
+- workflow 
+           1)`ng build --prod`(--aot default)
+
            2) `npm run precache` 
+
            3) `npm run lite` 
+
            4)open chrome devtools and refresh network tab,then you will see service worker cached
 
 
