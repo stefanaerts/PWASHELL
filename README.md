@@ -11,25 +11,30 @@
 - progressive webapp skeleton
 - manifest.json added
 - lite server added to test local 
-- workflow 1)ng build --prod --aot 2) npm run precache 3) npm run lite 4)open chrome devtools and refresh network tab,then you will see service worker cached
+- workflow 1)`ng build --prod`(--aot default) 
+           2) `npm run precache` 
+           3) `npm run lite` 
+           4)open chrome devtools and refresh network tab,then you will see service worker cached
 
 
-#run tests local + generate code coverage report
-npm run ltest to see result in browser
+##run tests local + generate code coverage report
+
+`npm run ltest` to see result in browser
 
 
-#show code coverage report
-run local -> $(npm bin)/lcov-summary ./coverage/lcov.info
-run local -> npm run showcoverage
+##show code coverage report local
+run local -> `$(npm bin)/lcov-summary ./coverage/lcov.info`
+run local -> `npm run showcoverage`
 
-#travis
-an account is made and PWASHELL app is enabled between github and travis
+##travis
 
-after checkin in github travis runs automatically
-a batch for build status is added to readme.md
-a batch for coverage status is added to readme.md
+PWASHELL app is enabled between github and travis.
+after checkin in github travis runs automatically.
+- A batch for build status is added to readme.md
+- A batch for coverage status is added to readme.md
 
-#coveralls
-an account is made and PWASHELL app is enabled between github and coveralls
+##coveralls
+
+PWASHELL app is enabled between github and coveralls
 
 
