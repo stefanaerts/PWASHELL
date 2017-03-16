@@ -12,7 +12,8 @@
 - manifest.json added
 - lite server added to test local 
 - workflow 
-           1)`ng build --prod`(--aot default)
+
+           1) ng build --prod`(--aot default)
 
            2) `npm run precache` 
 
