@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-left-side-nav',
@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./left-side-nav.component.scss']
 })
 export class LeftSideNavComponent implements OnInit {
-
+  @ViewChild('leftNav') sidenav;
   constructor() { }
 
   ngOnInit() {
   }
-
+  toggle() {
+    this.sidenav.toggle();
+  }
 }
