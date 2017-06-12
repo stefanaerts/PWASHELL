@@ -12,16 +12,16 @@ import { HeaderComponent } from './views/header/header.component';
 @NgModule({
   declarations: [
     AppComponent,
-    /*LeftSideNavComponent,
+    LeftSideNavComponent,
     RightSideNavComponent,
     ContentComponent,
-    HeaderComponent,*/
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
-    // FormsModule,
-    // HttpModule,
-    // MaterialModule,
+    FormsModule,
+    HttpModule,
+    MaterialModule,
     //   BrowserAnimationsModule
   ],
   providers: [],
