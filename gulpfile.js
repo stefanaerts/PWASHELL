@@ -30,7 +30,7 @@ svgConfig = {
 // Define our task.
 gulp.task('svg', function () {
   // Set the source folder.
-  gulp.src('src/uncompressed/icons/**/*.svg')
+  gulp.src('uncompressed/icons/**/*.svg')
     // Include our options.
     .pipe(svgSprite(svgConfig))
     // Set the destination folder.

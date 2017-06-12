@@ -1,5 +1,6 @@
 @import "theme";
 
+
 $color: rgba(0, 0, 0, 0.01);
 
 @function makelongshadow($color) {
@@ -14,12 +15,16 @@ $color: rgba(0, 0, 0, 0.01);
   text-shadow: makelongshadow($color);
 }
 
-md-icon,
-.mat-icon {
+
+.my-icon {
             opacity: 0.65;
-            color: white;
-            font-size: 2rem;
-            @include longshadow(darken($color, 5% ));
+           // background-color:;
+          //  fill:orange;
+        //    color:red;
+            fill: antiquewhite;
+            width:2rem;
+            height:2rem;
+           @include longshadow(darken($color, 5% ));
         }
 
 

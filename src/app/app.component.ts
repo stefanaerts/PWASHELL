@@ -1,6 +1,8 @@
-import { Component, ViewEncapsulation } from '@angular/core';
-import { DomSanitizer } from '@angular/platform-browser';
-import { MdIconRegistry } from '@angular/material';
+import { Component } from '@angular/core';
+//import { Component, ViewEncapsulation } from '@angular/core';
+
+// import { DomSanitizer } from '@angular/platform-browser';
+// import { MdIconRegistry } from '@angular/material';
 
 @Component({
   selector: 'app-root',
@@ -8,14 +10,14 @@ import { MdIconRegistry } from '@angular/material';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'app';
 
-  constructor(private _iconRegistry: MdIconRegistry,
-    private _domSanitizer: DomSanitizer) {
-    this._iconRegistry.addSvgIconInNamespace('assets', 'github',
-      this._domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/github.svg'));
-    this._iconRegistry.addSvgIconInNamespace('assets', 'ethnicf',
-      this._domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/ethnicf2.svg'));
+  // constructor(private _iconRegistry: MdIconRegistry,
+  //   private _domSanitizer: DomSanitizer) {
+  //   this._iconRegistry.addSvgIconInNamespace('assets', 'github',
+  //     this._domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/github.svg'));
+  //   this._iconRegistry.addSvgIconInNamespace('assets', 'ethnicf',
+  //     this._domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/ethnicf2.svg'));
 
-  }
+  // }
 }

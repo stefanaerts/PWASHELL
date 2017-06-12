@@ -46,4 +46,11 @@ after checkin in github travis runs automatically.
 
 PWASHELL app is enabled between github and coveralls
 
+##sprites
+
+Create a sprite file in src/assets/icons based on icons under
+./uncompressed/icons 
+1) npm run svgo // input ./uncompressed/icons"
+2) npm run run postsvgo // output src/assets/icons/symbol/svg/sprite.symbol.svg
+3) include the file content sprite.symbol.svg in index.html and use references in your app
 
